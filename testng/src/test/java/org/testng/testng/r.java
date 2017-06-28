@@ -181,7 +181,9 @@ public class r {
 		int maxIntParam = 2147483647;
 
 
-		int maxIntParamPlus1 = maxIntParam + 344;
+
+		int maxIntParamPlus1 = maxIntParam + 777;
+
 
 
 		Response response =
