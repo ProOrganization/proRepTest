@@ -179,7 +179,9 @@ public class r {
 
 		baseURI = "https://api.vk.com/api.php";
 		int maxIntParam = 2147483647;
-		int maxIntParamPlus1 = maxIntParam + 2;
+
+		int maxIntParamPlus1 = maxIntParam + 3;
+
 		Response response =
 
 				given().contentType(ContentType.JSON)
