@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8475" started-at="2017-06-28T07:28:41Z" finished-at="2017-06-28T07:28:50Z">
+    <groups>
+      <group name="string">
+        <method signature="r.testRandString()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testRandString" class="org.testng.testng.r"/>
+      </group> <!-- string -->
+      <group name="double">
+        <method signature="r.negativeTestRandDouble()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="negativeTestRandDouble" class="org.testng.testng.r"/>
+        <method signature="r.testRandDouble()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testRandDouble" class="org.testng.testng.r"/>
+      </group> <!-- double -->
+      <group name="int">
+        <method signature="r.negativeTestRandInt()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="negativeTestRandInt" class="org.testng.testng.r"/>
+        <method signature="r.testMaxInt()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testMaxInt" class="org.testng.testng.r"/>
+        <method signature="r.testMaxIntPlus1()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testMaxIntPlus1" class="org.testng.testng.r"/>
+        <method signature="r.testRandInt()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testRandInt" class="org.testng.testng.r"/>
+        <method signature="r.testWithDataProvider(int)[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testWithDataProvider" class="org.testng.testng.r"/>
+      </group> <!-- int -->
+    </groups>
+    <test name="Default test" duration-ms="8475" started-at="2017-06-28T07:28:41Z" finished-at="2017-06-28T07:28:50Z">
+      <class name="org.testng.testng.r">
+        <test-method status="PASS" signature="startInt()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="startInt" is-config="true" duration-ms="10" started-at="2017-06-28T10:28:41Z" finished-at="2017-06-28T10:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startInt -->
+        <test-method status="PASS" signature="negativeTestRandInt()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="negativeTestRandInt" duration-ms="4872" started-at="2017-06-28T10:28:41Z" finished-at="2017-06-28T10:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestRandInt -->
+        <test-method status="PASS" signature="testMaxInt()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testMaxInt" duration-ms="322" started-at="2017-06-28T10:28:46Z" finished-at="2017-06-28T10:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxInt -->
+        <test-method status="PASS" signature="testMaxIntPlus1()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testMaxIntPlus1" duration-ms="324" started-at="2017-06-28T10:28:46Z" finished-at="2017-06-28T10:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxIntPlus1 -->
+        <test-method status="PASS" signature="testRandInt()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testRandInt" duration-ms="326" started-at="2017-06-28T10:28:47Z" finished-at="2017-06-28T10:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandInt -->
+        <test-method status="PASS" signature="testWithDataProvider(int)[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testWithDataProvider" duration-ms="308" started-at="2017-06-28T10:28:47Z" data-provider="getData" finished-at="2017-06-28T10:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234320]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithDataProvider -->
+        <test-method status="PASS" signature="testWithDataProvider(int)[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testWithDataProvider" duration-ms="313" started-at="2017-06-28T10:28:47Z" data-provider="getData" finished-at="2017-06-28T10:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1213791]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithDataProvider -->
+        <test-method status="PASS" signature="testWithDataProvider(int)[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testWithDataProvider" duration-ms="336" started-at="2017-06-28T10:28:48Z" data-provider="getData" finished-at="2017-06-28T10:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[603576]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithDataProvider -->
+        <test-method status="PASS" signature="testWithDataProvider(int)[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testWithDataProvider" duration-ms="319" started-at="2017-06-28T10:28:48Z" data-provider="getData" finished-at="2017-06-28T10:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[512441]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithDataProvider -->
+        <test-method status="PASS" signature="testWithDataProvider(int)[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testWithDataProvider" duration-ms="295" started-at="2017-06-28T10:28:48Z" data-provider="getData" finished-at="2017-06-28T10:28:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[273313]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithDataProvider -->
+        <test-method status="PASS" signature="finishInt()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="finishInt" is-config="true" duration-ms="0" started-at="2017-06-28T10:28:49Z" finished-at="2017-06-28T10:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishInt -->
+        <test-method status="PASS" signature="negativeTestRandDouble()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="negativeTestRandDouble" duration-ms="324" depends-on-groups="int" started-at="2017-06-28T10:28:49Z" finished-at="2017-06-28T10:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestRandDouble -->
+        <test-method status="PASS" signature="startDouble()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="startDouble" is-config="true" duration-ms="0" started-at="2017-06-28T10:28:49Z" finished-at="2017-06-28T10:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDouble -->
+        <test-method status="PASS" signature="testRandDouble()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testRandDouble" duration-ms="296" depends-on-groups="int" started-at="2017-06-28T10:28:49Z" finished-at="2017-06-28T10:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandDouble -->
+        <test-method status="PASS" signature="finishDouble()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="finishDouble" is-config="true" duration-ms="1" started-at="2017-06-28T10:28:49Z" finished-at="2017-06-28T10:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishDouble -->
+        <test-method status="PASS" signature="startString()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="startString" is-config="true" duration-ms="1" started-at="2017-06-28T10:28:49Z" finished-at="2017-06-28T10:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startString -->
+        <test-method status="PASS" signature="testRandString()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="testRandString" duration-ms="326" depends-on-groups="double" started-at="2017-06-28T10:28:49Z" finished-at="2017-06-28T10:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandString -->
+        <test-method status="PASS" signature="finishString()[pri:0, instance:org.testng.testng.r@4f933fd1]" name="finishString" is-config="true" duration-ms="0" started-at="2017-06-28T10:28:50Z" finished-at="2017-06-28T10:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishString -->
+      </class> <!-- org.testng.testng.r -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
