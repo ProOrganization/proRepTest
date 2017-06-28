@@ -179,7 +179,11 @@ public class r {
 
 		baseURI = "https://api.vk.com/api.php";
 		int maxIntParam = 2147483647;
-		int maxIntParamPlus1 = maxIntParam + 66678;
+
+
+		int maxIntParamPlus1 = maxIntParam + 3;
+
+
 		Response response =
 
 				given().contentType(ContentType.JSON)
@@ -212,5 +216,6 @@ public class r {
 		Assert.assertTrue(resp >= 0 && resp <= params);
 		// System.out.println(response.asString());
 		// System.out.println(response.asString());
+		// System.out.println("Hello, Aleksey");
 	}	
 }
